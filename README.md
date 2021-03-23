@@ -1,17 +1,13 @@
 # Medizinische Genomanalysen 2021 - Assignment 1
 
 ## News
-* Deadline: xx.xx.2021
-* Region_of_gene - report the exons of your gene
-* Report the number of properly paired and indel reads
+* Deadline: 16.05.2021
 
 
 ## Overview
-* xxx
 * Complete the python program, based on the template, to calculate various properties
-* Complete all TODOs
-* **Hint**: Call the individual methods from *print_summary*
 * Commit (often)
+* Run pytest
 * Push to **your** repository
 * Investigate the result of the autograder system
 * The following tools might be of help:
@@ -21,45 +17,5 @@
   * pybam (https://github.com/JohnLonginotto/pybam)
   * pysam (http://pysam.readthedocs.io/en/latest/usage.html)
   * UCSC
-
-## Data
-* BAM file: [http://hmd.ait.ac.at/medgen2019/chr21.bam](http://hmd.ait.ac.at/medgen2019/chr21.bam)
-* BAI file: [http://hmd.ait.ac.at/medgen2019/chr21.bam.bai](http://hmd.ait.ac.at/medgen2019/chr21.bam.bai)
-* All datasets [http://hmd.ait.ac.at/medgen2019/](http://hmd.ait.ac.at/medgen2019/)
-
-## Individual genes
-
-**HINT** Use a different gene if you do not find reads in your gene
-
-| Student | Gene | 
-| ----- | --- |
-| Arnold Vivienne | KCNE1 |
-| Bilek Gerhard | PDXK |
-| Brenner Stefan | HLCS |
-| Erhart Ricarda | PSMG1 |
-| Fischer Johanna | RWDD2B |
-| Glück Tobias | CLDN14 |
-| Gorki Anna-Dorothea | PCNT |
-| Hobiger Johanna | CTSB |
-| Huber Lukas | LAD |
-| Jansen Christian | S100B |
-| Kriz Richard | CBS |
-| Lehner Eva Valerie | ETS2 |
-| Lenz René | RRP1B |
-| Luger Martina | DYRK1A |
-| Maxymovitz Eva | SOD1 |
-| Meitz Sarah | RRP1 |
-| Mock Michael | OLIG2 |
-| Molin Alexander | RUNX1 |
-| Prem Max | FRGCA |
-| Ropek Nathalie | DSCR1 |
-| Schneider Lisa | CRYZL1 |
-| Sehr Eva Maria | KCNE2 |
-| Turkusic Sabina | NRIP1 |
-| Umlauf Ellen | ERG |
-| Viehböck Dominic | FAM3B |
-| Zajac Marek | RNR4 |
-
-
 
 
