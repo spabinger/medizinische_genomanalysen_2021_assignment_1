@@ -1,4 +1,4 @@
-import mysql.connector
+import pysam
 
 __author__ = 'XXX'
 
@@ -11,57 +11,16 @@ __author__ = 'XXX'
 class Assignment1:
     
     def __init__(self):
-        ## Your gene of interest
-        self.gene = ""
+        ## The gene of interest
+        self.gene = "RRP1"
 
-    
-    def download_gene_coordinates(self, genome_reference, file_name):
-        ## TODO concept
-        
-        print("Connecting to UCSC to fetch data")
-        
-        ## Open connection
-        cnx = mysql.connector.connect(host='genome-mysql.cse.ucsc.edu', user='genomep', passwd='password', db=genome_reference)
-        
-        ## Get cursor
-        cursor = cnx.cursor()
-        
-        ## Build query fields
-        query_fields = ["refGene.name2",
-                        "refGene.name",
-                        "refGene.chrom",
-                        "refGene.txStart",
-                        "refGene.txEnd",
-                        "refGene.strand",
-                        "refGene.exonCount",
-                        "refGene.exonStarts",
-                        "refGene.exonEnds"]
-        
-        ## Build query
-        query = "SELECT DISTINCT %s from refGene" % ",".join(query_fields)
-        
-        ## Execute query
-        cursor.execute(query)
-        
-        ## Write to file
-        ## TODO this may need some work 
-        with open(file_name, "w") as fh:
-            for row in cursor:
-                fh.write(str(row) + "\n")
-    
-            
-        ## Close cursor & connection
-        cursor.close()
-        cnx.close()
-        
-        print("Done fetching data")
-        
     def get_coordinates_of_gene(self):
         ## Use UCSC file
         print("todo")
         
     def get_gene_symbol(self):
         print("todo")
+        return "test"
                         
     def get_sam_header(self):
         print("todo")
