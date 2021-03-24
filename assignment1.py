@@ -5,7 +5,7 @@ __author__ = 'XXX'
 
 ##
 ## Concept:
-## TODO
+## TODO - outline a concept
 ##
 
 class Assignment1:
@@ -32,18 +32,23 @@ class Assignment1:
     def get_region_of_gene(self):
         return None
 
+    ## Return the number of exons
     def get_number_of_exons(self):
         return None
 
-    def get_number_mapped_reads(self):
+    ## Return the number of mapped reads within the gene
+    def get_number_mapped_reads_of_gene(self):
         return None
 
+    ## Return the name of the aligner
     def get_aligner_from_sam_header(self):
         return None
 
+    ## Get the number of properly paired reads within the gene
     def get_number_of_properly_paired_reads_of_gene(self):
         return None
 
+    ## Calculate the average genome coverage of the file (not only of the gene of interest)
     ## Use bedtools - genome_coverage
-    def calculate_average_genome_coverage_of_file(self):
+    def get_average_genome_coverage_of_file(self):
         return None

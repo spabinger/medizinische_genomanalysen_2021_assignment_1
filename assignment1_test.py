@@ -14,7 +14,7 @@ def test_get_number_of_exons():
 
 def test_get_number_mapped_reads():
     a1 = assignment1.Assignment1()
-    assert a1.get_number_mapped_reads() == 11821
+    assert a1.get_number_mapped_reads_of_gene() == 11821
 
 def test_get_aligner_from_sam_header():
     a1 = assignment1.Assignment1()
@@ -27,7 +27,7 @@ def test_get_number_of_properly_paired_reads_of_gene():
 def test_calculate_average_genome_coverage_of_file():
     a1 = assignment1.Assignment1()
     x = 47.15
-    assert x - 1 <= a1.calculate_average_genome_coverage_of_file() <= x + 1
+    assert x - 1 <= a1.get_average_genome_coverage_of_file() <= x + 1
 
 
 
