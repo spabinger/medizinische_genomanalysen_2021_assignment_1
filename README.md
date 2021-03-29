@@ -3,9 +3,8 @@
 ## News
 * Deadline: 16.05.2021
 
-
 ## Overview
-* Complete the python program, based on the template, to calculate various properties
+* Complete the python program to calculate various properties. The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
 * Commit (often)
 * Run pytest
 * Push to **your** repository
@@ -18,4 +17,9 @@
   * pysam (http://pysam.readthedocs.io/en/latest/usage.html)
   * UCSC
 
+## Setup command
+`sudo apt-get install bedtools; sudo -H pip3 install pytest pysam pybedtools`
+
+## Run command
+`pytest`
 
