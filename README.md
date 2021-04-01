@@ -4,7 +4,10 @@
 * Deadline: 16.05.2021
 
 ## Overview
-* Complete the python program to calculate various properties. The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
+* First, clone the repository
+* Complete the python program to calculate various properties
+* Use your preferred coding environment  
+* The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
 * Commit (often)
 * Run pytest
 * Push to **your** repository
